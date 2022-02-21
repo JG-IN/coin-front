@@ -1,10 +1,12 @@
+import Socket from "./WebSocketProvider"
+import Tweet from "./TweetViewer"
 
 function Main() {
   return (
-    <div className="Main">
-     
+    <div>
+        <Tweet ticker='Cointelegraph'/>
     </div>
-  );
+  )
 }
 
 export default Main;
